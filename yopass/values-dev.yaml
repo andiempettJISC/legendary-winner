@@ -1,5 +1,4 @@
 image:
-  # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 app:
   port: 1337
@@ -12,19 +11,13 @@ replicaCount: 2
 
 ingress:
   enabled: true
-  # className: ""
   annotations:
     kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
   hosts:
     - host: yopass.radioco.local
       paths:
         - path: /
           pathType: Prefix
-  # tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
 
 resources:
   limits:
