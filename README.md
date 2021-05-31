@@ -2,6 +2,8 @@
 
 ## A Helm chart to deploy yopass backed by redis
 
+[Kanban project](https://github.com/androidwiltron/legendary-winner/projects/1)
+
 ## Contents
 
   * [Contents](#contents)
@@ -10,6 +12,7 @@
     + [local deployment](#local-deployment)
   * [Performance testing](#performance-testing)
   * [Helm Configuration](#helm-configuration)
+  * [Github Workflows](#github-workflows)
 
 ### architecture
 
