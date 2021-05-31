@@ -8,6 +8,8 @@ service:
   type: ClusterIP
   port: 1337
 
+replicaCount: 2
+
 ingress:
   enabled: true
   # className: ""
